@@ -1,9 +1,14 @@
 @use "./sass/variables" as *;
-.beer-header{
+.header{
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
+}
+*{
+  background-color: $color-secondary;
+  padding: 0;
+  margin: 0;
 }
 

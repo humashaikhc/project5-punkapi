@@ -7,9 +7,9 @@ const Card = ({name, image,abv,ph,year}) => {
         
             <div className = "card__content">
                 <h2 className="card__heading">{name}</h2>
-                <p className="card__abv">{abv}</p>
-                <p className="card__ph">{ph}</p>
-                <p className="card__year">{year}</p>
+                <p className="card__abv">abv: {abv}%</p>
+                <p className="card__ph">ph: {ph}</p>
+                <p className="card__year">Brewed: {year}</p>
             </div>
         </div>
     );

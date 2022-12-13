@@ -1,18 +1,19 @@
+import React from "react";
 import "./SearchBox.scss";
 
-const SearchBox = ({searchTerm,handleInput}) => {
+const SearchBox = ({updateSearchTerm,placeholder}) => {
   
     return (
       <form className="search-box">
         <label className="search-box__label">
-          Search Name of Beer
+          Search-
         </label>
         <input
           type="text"
-          value={searchTerm}
-          onInput={handleInput}
-          className="search-box__input"
-        />
+          placeholder={placeholder}
+          onInput={e =>updateSearchTerm(e.target.value)}
+          className="search-box__input">
+        </input>
       </form>
     );
   };
