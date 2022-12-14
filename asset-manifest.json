@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project5-punkapi/static/css/main.17054cf4.css",
+    "main.js": "/project5-punkapi/static/js/main.3dfd4a0e.js",
+    "static/js/787.3a50f25e.chunk.js": "/project5-punkapi/static/js/787.3a50f25e.chunk.js",
+    "index.html": "/project5-punkapi/index.html",
+    "main.17054cf4.css.map": "/project5-punkapi/static/css/main.17054cf4.css.map",
+    "main.3dfd4a0e.js.map": "/project5-punkapi/static/js/main.3dfd4a0e.js.map",
+    "787.3a50f25e.chunk.js.map": "/project5-punkapi/static/js/787.3a50f25e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17054cf4.css",
+    "static/js/main.3dfd4a0e.js"
+  ]
+}
