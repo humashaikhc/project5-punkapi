@@ -7,7 +7,7 @@ const CheckContent=({beerArr}) => {
   
   const content = beerArr.length
     ? (<CardList beerArr={beerArr}/>)
-    : (<NotFound text="Sorry, no beers." />
+    : (<NotFound text="Sorry !! No Beers found" />
   );
 
   return (
